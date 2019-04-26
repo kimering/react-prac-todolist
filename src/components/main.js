@@ -3,6 +3,10 @@ import Menubar from './menubar';
 import Contents from './contents';
 
 class main extends Component {
+    constructor(props) {
+        super(props);
+
+    }
     render() {
         console.log(this.props.match.params.title)
         return (

@@ -108,7 +108,7 @@ const initialState = fromJS({
 export default handleActions({
     [CREATE_TODO]: (state, action) => {},
     [FINISH_TODO]: (state, action) => {
-        const focus = state.get('focus')*1
+        const focus = state.get('focus')*1 // 왜 형태가 다를까를 고민해 보자
         return state.setIn(['todos', focus, 'items', action.payload.index, 'finished'], !state.getIn(['todos', focus, 'items', action.payload.index, 'finished']))
     },
     [DELETE_TODO]: (state, action) => {
