@@ -4,10 +4,15 @@
 
 * React
 * Redux
-* Redux-saga
 * React-router
+* Redux-saga (아직 못 붙임)
 
 ## 기본 컨셉
+![Alt text](https://github.com/kimering/react-prac-todolist/blob/master/public/brainstorming.png?raw=true)
 
-(https://www.notion.so/7a492fbd33ef43d2bb80baf56f59b5fe#b864a0dcbf294d83a86e0eb4cccd11d2)
 
+## 
+
+## version1 동작 상황
+
+![]()
