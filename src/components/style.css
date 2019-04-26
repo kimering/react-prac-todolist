@@ -1,0 +1,70 @@
+.sidebar {
+    display: flex;
+    float: left;
+    height: 100vh;
+    align-items: stretch;
+    max-width: 250px;
+    min-width: 250px;
+    background-color: #507070;
+    color: white;
+}
+
+.title{
+    color: #E8FFFD;
+}
+.title:hover{
+    color: #9CFFF7;
+}
+
+.focus-title {
+    color: #FFC7AD;
+}
+.focus-title:hover {
+    color: #FF9361;
+}
+
+.btn-margin {
+    margin: 0px 5px;
+}
+
+.contents {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 250px;
+}
+
+.contents-title {
+    margin: 0px;
+    padding: 10px 0px;
+    color: #FFC7AD;
+    text-decoration: underline dashed #507070;
+    text-shadow: 0.5px 0.5px 1px gray;
+}
+.contents-row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.emoji {
+    padding-right: 10px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.finished-todo {
+    text-decoration: line-through #5D6D7E;
+    color: #CCD1D1;
+}
+
+.hide-emoji {
+    visibility: hidden;
+}
+.title-plus {
+    font-size: 30px;
+    padding: 0px;
+}
+
+.form-width {
+    width: 400px !important;
+}
